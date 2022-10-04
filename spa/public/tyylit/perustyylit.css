@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+main{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    font-size: 20px;
+}
+
+th{
+    background-color: rgb(255, 176, 248);
+    font-size: 20px;
+}
+
+table,td,th{
+    border:1px solid rgb(153, 0, 0);
+    padding: 0.5em;
+}
+
+.virhe{
+    border:1px dashed red;
+    padding:0.5em;
+}
+
+.info{
+    border:1px solid green;
+    padding:0.5em;
+}
+
+button{
+    width:13em;
+    height: 2em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 18px;
+}
+
+input[readonly]{
+    background-color: lightgray;
+}
+
+.selite{
+    font-weight: bold;
+}
+.tieto{
+    color:blue;
+}
+
+#tulosalue p{
+    display:grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap:10px;
+}
+
+#napit, #hakuehto{
+    display: grid;
+}

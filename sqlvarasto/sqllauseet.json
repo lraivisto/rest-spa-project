@@ -1,0 +1,21 @@
+{
+    "haeKaikki": [
+        "select numero,nimi,pituus,painoKg,rotu from kissa"
+    ],
+    "hae": [
+        "select numero,nimi,pituus,painoKg,rotu from kissa",
+        "where numero=?"
+    ],
+    "lisaa": [
+        "insert into kissa (numero,nimi,pituus,painoKg,rotu)",
+        "values(?,?,?,?,?)"
+    ],
+    "paivita": [
+        "update kissa set nimi=?,pituus=?, painoKg=?, rotu=?",
+        "where numero=?"
+    ],
+    "poista": [
+        "delete from kissa where numero=?"
+    ],
+    "perusavain": "numero"
+}
