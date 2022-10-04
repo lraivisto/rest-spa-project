@@ -1,2 +1,2 @@
 # rest singlepage project
- School project
+ Fetching sql data into a singeplay site with rest api
